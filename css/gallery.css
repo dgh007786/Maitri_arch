@@ -30,6 +30,7 @@ p{
   vertical-align: middle;
   margin-left : 5px;
   max-width:32%;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
