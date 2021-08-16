@@ -1958,7 +1958,7 @@ img.mfp-img{
 
   /* Slider */
 
-
+    
 
   .arrow-left{
     top: 43.5vmin;
@@ -1972,6 +1972,7 @@ img.mfp-img{
     top: 43.5vmin;
     bottom: auto;
   }
+  
 }
 
 
