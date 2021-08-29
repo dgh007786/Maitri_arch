@@ -7,6 +7,18 @@
     font-family: 'Gowun Dodum', sans-serif;
 }
 
+.home {
+    text-align: center;
+    font-size: 2em;
+    background-color: #f7f7f7;
+    line-height: 50px;
+}
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: black;
+ }
+
 p{
     color: darkgray;
     margin-left: 10px;
