@@ -284,11 +284,11 @@
 
 
 	$(".js-projects-carousel").owlCarousel({
-		itemsMobile:[479,1],
+		itemsMobile:[479,2],
 		itemsTablet:[768,2],
 		itemsDesktopSmall:[979,2],
 		itemsDesktop:[1250,3],
-		items:4,
+		items:2,
 		pagination:false,
 		navigation:true,
 		slideSpeed:700,
