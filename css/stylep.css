@@ -5048,7 +5048,7 @@ textarea.form-control {
 
 .portfolio-filter li {
   margin-bottom: 20px;
-  margin-right: 30px;
+  margin-right: 0px;
 }
 
 .portfolio-filter li:last-child {
