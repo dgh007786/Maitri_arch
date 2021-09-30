@@ -5172,7 +5172,7 @@ textarea.form-control {
 /*  Small Screens and tablets  */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio-filter li {
-    margin-right: 20px;
+    margin-right: 5px;
   }
 
   .portfolio-grid .container {
@@ -5202,8 +5202,8 @@ textarea.form-control {
 /* Extra Small Devices */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   .portfolio-filter li {
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
 
   .portfolio-filter li a {
