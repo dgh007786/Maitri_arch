@@ -1750,6 +1750,10 @@ label.error{
   .text-center-md{
     text-align: center;
   }
+    
+    .sett{
+    margin-top: 90px;
+    }
 
   .text-right-md{
     text-align: right;
@@ -1820,7 +1824,9 @@ label.error{
 
   /* Slider */
 
-     
+      .sett{
+          margin-top: 0;
+      } 
 
   .arrow-left{
     top: 43.5vmin;
@@ -1836,5 +1842,6 @@ label.error{
   }
   
 }
+
 
 
