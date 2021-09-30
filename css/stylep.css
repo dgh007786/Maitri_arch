@@ -51,8 +51,7 @@ body {
 body {
   background-color: #ffffff;
   font-family: "Heebo", sans-serif;
-  font-size: 15px;
-  font-weight: 400;
+ 
   color: #c5a47e;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -5165,14 +5164,14 @@ textarea.form-control {
 /* Medium Size Screens */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-filter li {
-    margin-right: 23px;
+    margin-right: 23px !important;
   }
 }
 
 /*  Small Screens and tablets  */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .portfolio-filter li {
-    margin-right: 20px;
+    margin-right: 20px !important;
   }
 
   .portfolio-grid .container {
@@ -5202,8 +5201,8 @@ textarea.form-control {
 /* Extra Small Devices */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
   .portfolio-filter li {
-    margin-right: 15px;
-    margin-bottom: 15px;
+    margin-right: 15px !important;
+    margin-bottom: 15px !important;
   }
 
   .portfolio-filter li a {
