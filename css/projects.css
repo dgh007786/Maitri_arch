@@ -7219,11 +7219,12 @@ textarea.form-control {
     color: black;
 }
 .list{
+    font-size: .8em;
     padding: 30px;
 }
 
 .gallery{
-    padding: 20px;
+    padding: 10px;
 }
 .prorow{
     margin-bottom: 5px;
