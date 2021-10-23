@@ -172,6 +172,16 @@ h4,
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
+h6,
+.h6{
+  font-family: 'montserratsemibold';
+  line-height: 1.35;
+  color:#3d3d3d;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
 
 h1 a,
 .h1 a,
@@ -579,6 +589,11 @@ label.error{
   margin-top: 7.1em;
 }
 
+@media (max-width: 481px){
+    .section-content{
+        margin-top: 3em;
+    }
+}
 
 
 /*-------------------------------------------------------------------------------
@@ -1843,5 +1858,13 @@ label.error{
   
 }
 
+.img-responsive{
+    text-align: center;
+}
+
+.col-about-info{
+    text-align: center;
+    padding: 2em;
+}
 
 
