@@ -685,19 +685,82 @@
           <div class="section-content">
             <div class="row-services row-base row">
               <div class="col-base col-service col-sm-4 col-md-4 wow fadeInUp">
-                <div class="service-item">
+                <div class="service-item maitrip">
                   <img alt="" src="img/team/maitri.jpg" width="90%">
                   <h4>Maitri Bhayani</h4>
                   <h6>(Founder)</h6>
                   
                 </div>
               </div>
-               <div class="col-base col-service col-sm-8 col-md-8 wow fadeInUp" data-wow-delay="0.3s">
+              <style>
+        /* Initially, hide the extra text that
+            can be revealed with the button */
+        #moreText {
+  
+            /* Display nothing for the element */
+            display: none;
+        }
+    </style>
+               <div class="col-base col-service col-sm-8 col-md-8 wow fadeInUp rowc" data-wow-delay="0.3s">
                 <div class="service-item">
                  
-                  <p>Maitri bhayani founder at space design studio likes to deliever a project with a sense of the unexpected,but respecting her client's personalities. Her work is about producing contemporary classic design with transitional notes, creating serene ,timeless and elegant design.<br>Persuading her career as an undergraduate degree from institute of architecture and planning nirma university ahemdabad and pecilization in interior and living design from domusacademy, milan. She has also mastered bamboo constructive design from green school,bali.<br>
+                  <p>Maitri bhayani founder at space design studio likes to deliever a project with a sense of the unexpected,but respecting her client's personalities. Her work is about producing contemporary classic design with transitional notes, creating serene ,timeless and elegant design.<br>
+                  <span id="points">...</span>
+                  <span id="moreText">Persuading her career as an undergraduate degree from institute of architecture and planning nirma university ahemdabad and pecilization in interior and living design from domusacademy, milan. She has also mastered bamboo constructive design from green school,bali.<br>
+                  
                   Their past projects range from individual home owners to hospitality and office spaces like  p.d.p.u , viswacarion travel, saffron bio.tech,shipbreaking private limited,films and animation studio etc.<br>
-                  Their work has appread and published on various platforms such as Rethinking Future, Interior Exterior, India Asthe etc.</p>
+                  Their work has appread and published on various platforms such as Rethinking Future, Interior Exterior, India Asthe etc.</span></p>
+                  <button onclick="toggleText()" id="textButton">
+        Show More
+    </button>
+               <script>
+        function toggleText() {
+  
+            // Get all the elements from the page
+            var points = 
+                document.getElementById("points");
+  
+            var showMoreText =
+                document.getElementById("moreText");
+  
+            var buttonText =
+                document.getElementById("textButton");
+  
+            // If the display property of the dots 
+            // to be displayed is already set to 
+            // 'none' (that is hidden) then this 
+            // section of code triggers
+            if (points.style.display === "none") {
+  
+                // Hide the text between the span
+                // elements
+                showMoreText.style.display = "none";
+  
+                // Show the dots after the text
+                points.style.display = "inline";
+  
+                // Change the text on button to 
+                // 'Show More'
+                buttonText.innerHTML = "Show More";
+            }
+  
+            // If the hidden portion is revealed,
+            // we will change it back to be hidden
+            else {
+  
+                // Show the text between the
+                // span elements
+                showMoreText.style.display = "inline";
+  
+                // Hide the dots after the text
+                points.style.display = "none";
+  
+                // Change the text on button
+                // to 'Show Less'
+                buttonText.innerHTML = "Show Less";
+            }
+        }
+    </script>
                 </div>
                 </div>
              

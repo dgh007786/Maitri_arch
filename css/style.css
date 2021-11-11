@@ -1867,4 +1867,14 @@ label.error{
     padding: 2em;
 }
 
+.rowc{
+    text-align: center;
+}
+@media (max-width: 480px){
+    .maitrip img{
+        width: 40%;
+    } 
+}
+
+
 
